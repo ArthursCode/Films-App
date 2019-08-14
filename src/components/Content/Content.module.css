@@ -1,0 +1,17 @@
+.Content{
+    width: 50%;
+    display: flex;
+}
+
+.Content img{
+    width: 200px;
+}
+.Content ul{
+    margin: 0;
+    padding: 0;
+}
+.Content li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 14px;
+}

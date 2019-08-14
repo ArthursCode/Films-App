@@ -1,0 +1,45 @@
+.search{
+    user-select: none;
+    position: relative;
+    display: inline-flex;
+}
+.searchInput{
+    padding-right: 30px;
+    padding-left: 20px;
+    outline: none;
+    text-align: center;
+    height: 24px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 15px;
+    border: 3px solid #45a0b1;
+    color: #817975;
+}
+.searchSubmit{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #45a0b1;
+    cursor: pointer;
+}
+
+.dataTable, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.dataTable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.dataTable th, .dataTable td {
+    padding: 15px;
+}
+.dataTable tr{
+    cursor: pointer;
+}
+.dataTable td img{
+    width: 40px;
+}
